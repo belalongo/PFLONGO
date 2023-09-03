@@ -19,36 +19,20 @@
     <img class="imagenPrincipal" src="./img/img_casas.jpg" alt="imagen-casas-hogwarts">
 
     <div class="container"> 
-         <h2 class="question">Elige un objeto:</h2> 
+        <div class="quiz-container">
+            <h2 class="question"></h2> 
 
-        <div class="options">
-            <label>
-                <input type="radio" name="option" value="0">
-                Varita Mágica
-            </label>
-            <label>
-                <input type="radio" name="option" value="1">
-                Escoba Voladora
-            </label>
-            <label>
-                <input type="radio" name="option" value="2">
-                Libro de Hechizos
-            </label>
-            <label>
-                <input type="radio" name="option" value="3">
-                Capa de Invisibilidad
-            </label>
-        </div> 
+            <div class="options">
+            </div> 
 
-        <div class="submit-container">
-            <button id="submit-btn">Enviar respuesta</button>
+            <div class="submit-container">
+                <button id="submit-btn">Enviar respuesta</button>
+            </div>
+
+            <div id="result-container" class="result"></div>
         </div>
-
-        <div id="result-container" class="result"></div>
     </div>
-
 
     <script src="./main.js"></script>
 </body>
 </html>
-

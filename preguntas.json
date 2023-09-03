@@ -1,0 +1,97 @@
+{
+    "questions": [
+      {
+        "question": "Elige un objeto:",
+        "options": ["Varita Mágica", "Escoba Voladora", "Libro de Hechizos", "Capa de Invisibilidad"],
+        "answer": 0
+      },
+      {
+        "question": "¿Qué tipo de animal prefieres?",
+        "options": ["León", "Perro", "Águila", "Serpiente"],
+        "answer": 0  
+      },
+      {
+        "question": "Elige una Asignatura",
+        "options": ["Herbología", "Pociones", "Artes Oscuras", "Encantamientos"],
+        "answer": 0
+      },
+      {
+        "question": "Si un amigo es objeto de burlas",
+        "options": [
+          "Lo defiendes contra todos",
+          "Te unes a las burlas",
+          "Cuando todos se retiran, le ofreces tu ayuda",
+          "Lo ignorarías."
+        ],
+        "answer": 0
+      },
+      {
+        "question": "Elige una cualidad importante para ti:",
+        "options": ["Valentía", "Lealtad", "Intelecto", "Astucia"],
+        "answer": 0 
+      },
+      {
+        "question": "Dónde te irías de vacaciones?",
+        "options": ["Tailandia", "Londres", "Barcelona", "Nueva York"],
+        "answer": 0
+      },
+      {
+        "question": "Cuál sería tu Patronus?",
+        "options": ["Una pantera", "Un gato", "Un erizo", "Una nube"],
+        "answer": 0
+      },
+      {
+        "question": "Tu plan perfecto para un sábado a la noche es...",
+        "options": ["Quedarte en casa", "Discoteca", "Concierto", "Cine"],
+        "answer": 0
+      },
+      {
+        "question": "Elige un elemento",
+        "options": ["Aire", "Tierra", "Fuego", "Agua"],
+        "answer": 0
+      }
+    ],
+    "houses": [
+      {
+        "name": "Gryffindor",
+        "shield": "gryffindor_shield.jpg"
+      },
+      {
+        "name": "Hufflepuff",
+        "shield": "hufflepuff_shield.jpg"
+      },
+      {
+        "name": "Ravenclaw",
+        "shield": "ravenclaw_shield.jpg"
+      },
+      {
+        "name": "Slytherin",
+        "shield": "slytherin_shield.jpg"
+      }
+    ],
+    "rules": {
+      "houses": [
+        {
+          "name": "Gryffindor",
+          "traits": ["valentía", "coraje", "audacia"],
+          "minScore": 75
+        },
+        {
+          "name": "Hufflepuff",
+          "traits": ["lealtad", "amabilidad", "empatía"],
+          "minScore": 50
+        },
+        {
+          "name": "Ravenclaw",
+          "traits": ["intelecto", "creatividad", "aprendizaje"],
+          "minScore": 25
+        },
+        {
+          "name": "Slytherin",
+          "traits": ["astucia", "determinación", "logro"],
+          "minScore": 0
+        }
+      ]
+    }
+  }
+  
